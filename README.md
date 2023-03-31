@@ -12,7 +12,6 @@ le = LabelEncoder()
 x = wine[['Acl','Alcohol','Malic.acid','Ash']]
 y = wine[['Wine']]
 
-
 wine['Acl']=le.fit_transform(wine['Acl'])
 wine['Alcohol']=le.fit_transform(wine['Alcohol'])
 wine['Malic.acid']=le.fit_transform(wine['Malic.acid'])
